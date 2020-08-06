@@ -1,0 +1,119 @@
+index {
+  background: black;
+}
+
+.App {
+  height: 812px;
+  text-align: center;
+  background: rgb(42, 42, 42);
+  color: white;
+}
+
+.header {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.stats {
+  margin-top: 150px;
+  display: inline-block;
+  margin: 0 10% 0 10%;
+}
+
+.stats-header {
+  width: auto;
+  animation-duration: 1s;
+}
+
+.stats-fill {
+  margin-top: 10px;
+  animation-duration: 1s;
+}
+
+.interaction {
+  margin: auto;
+}
+
+.input-field {
+  width: 100%;
+  margin: auto;
+}
+
+.input-field input {
+  background-color: #fefefe;
+  padding: 4px;
+  outline: none;
+  border: none;
+  margin: 20px 0 40px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.input-first {
+  background-color: #fefefe;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.input-second {
+  margin: 0px;
+  background-color: #fefefe;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+}
+
+.input-second:active {
+  background-color: rgba(154, 141, 141, 0.605);
+}
+
+input {
+  -webkit-appearance: none;
+  -webkit-border-radius:0px;
+}
+
+.world-button {
+  margin: auto;
+  background-color: #fefefe;
+  padding: 4px;
+  outline: none;
+  border: none;
+  height: 23px;
+  border-radius: 5px;
+  margin: 10px 0 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.world-button:active {
+  background-color: rgba(154, 141, 141, 0.605);
+}
+
+@media screen and (max-width: 1080px)  {
+  .world-button {
+    width: 80%;
+  }
+  .input-first{
+    width: 58%;
+  }
+  .input-second {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1081px) {
+  .world-button {
+    width: 238px;
+  }
+  .input-field {
+    width: 238px;
+  }
+}
+
+.some-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(100, 98, 98);
+}
